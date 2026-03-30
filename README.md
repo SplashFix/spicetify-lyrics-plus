@@ -2,6 +2,13 @@
 
 A full-screen lyrics overlay for Spotify with a polished Apple Music-inspired layout, synced lyrics support, animated backgrounds, karaoke mode, vinyl mode, and fast provider fallback through Spicetify.
 
+<div align="center">
+  <img src="assets/screenshot-1.png" alt="Lyrics Overlay Main View" width="800" />
+  <br/><br/>
+  <img src="assets/screenshot-2.png" alt="Lyrics Overlay Detail View 1" width="395" />
+  <img src="assets/screenshot-3.png" alt="Lyrics Overlay Detail View 2" width="395" />
+</div>
+
 ## Why this exists
 
 Spotify's built-in lyrics view is functional, but it does not feel immersive. This extension turns the current track into a large-format lyrics experience with stronger visual focus, richer motion, and direct playback controls.
@@ -130,6 +137,10 @@ The extension also exposes `window.SpicetifyLyricsOverlay` for manual testing.
 
 ```text
 .
+├── assets/
+│   ├── screenshot-1.png
+│   ├── screenshot-2.png
+│   └── screenshot-3.png
 ├── README.md
 └── spicetify-lyrics-overlay.js
 ```
@@ -139,3 +150,4 @@ The extension also exposes `window.SpicetifyLyricsOverlay` for manual testing.
 If you make this repository public, the current structure is already fine for GitHub. You do not need a separate Windows or Linux build as long as the extension stays a single Spicetify JavaScript file.
 
 If you want broader adoption later, the natural next step would be packaging it for the Spicetify Marketplace.
+
